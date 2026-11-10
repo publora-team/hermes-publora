@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "publora",
+  "version": "1.0.0",
+  "description": "Draft, schedule and publish posts to LinkedIn, X, Instagram, Threads, TikTok, YouTube, Facebook, Bluesky, Mastodon and Telegram.",
+  "author": { "name": "Publora", "url": "https://publora.com" },
+  "homepage": "https://publora.com",
+  "repository": "https://github.com/publora-team/hermes-publora",
+  "license": "MIT",
+  "keywords": ["publora", "social-media", "scheduling", "mcp"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": { "publora": { "trust": "untrusted" } }
+    }
+  }
+}
